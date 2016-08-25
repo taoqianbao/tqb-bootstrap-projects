@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>理理财-恒溢盈余额确定页面</title>
+		<link href="bootstrap_3/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/financing.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap_3/js/bootstrap.min.js"></script>
+		<!--只要是IE9以下，就调用两个专门的js-->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    
+	    <!--[if lte IE 7]>
+	    <script type="text/javascript">
+	        window.location.href = '/kill-ie.htm';
+	    </script>
+	    <![endif]-->
+	</head>
+	<body class="index-body">
+		<!--顶部-->
+		<div class="top-content">
+			<div class="container">
+				<div class="row topbar-content">
+					<div class="col-md-6 topbar-left pull-left">
+						<span class="welcom-p2p">您好！欢迎来到P2P金融！</span>
+						<a href="login.html">登录</a>
+						<span>|</span>
+						<a href="register.html">注册</a>
+					</div>
+					<div class="col-md-6 topbar-right pull-right text-right">
+						<span>p2p合作</span>
+						<i class="in-block icon icon-xlwb"></i>
+						<i class="in-block icon icon-wx"></i>
+					</div>
+				</div>
+
+				<div class="row header">
+					<div class="col-md-6">
+						<h1>
+							<a href="index.html">
+								<img src="images/common/logo.jpg"/>
+							</a>
+						</h1>
+					</div>
+					<div class="col-md-6 text-right my-accout">
+						<div class="my-accout-cont">
+							<span>我的账户</span>
+							<span class="glyphicon glyphicon-menu-down"></span>
+							<!--我的账户-->
+							<ul>
+								<li>
+									<a href="Personal_index.html">可用余额</a>
+								</li>
+								<li>
+									<a href="Personal_touzi.html">我的投资</a>
+								</li>
+								<li>
+									<a href="Personal_daikuan.html">我的借款</a>
+								</li>
+								<li>
+									<a href="Personal_invite.html">邀请好友</a>
+								</li>
+								<li>
+									<a href="Personal_message.html">站内信息</a>
+								</li>
+								<li class="exit-li">
+									<a href="index.html">安全退出</a>
+								</li>
+							</ul>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航-->
+		<div class="nav-box">
+			<ul class="container nav text-center">
+				<li><a href="index.html">首页</a></li>
+				<li class="borderlight-bg"></li>
+				<li>
+					<a href="finance.html">P2P理财</a>
+					<ul>
+						<li>
+							<a href="finance-hyy.html">横溢盈</a>
+						</li>
+						<li>
+							<a href="finance-hbb.html">恒保宝</a>
+						</li>
+						<li>
+							<a href="finance-hrt.html">恒税通</a>
+						</li>
+						<li>
+							<a href="finance-zqzr.html">转让区</a>
+						</li>
+						<li>
+							<a href="finance-xszx.html">新手区</a>
+						</li>
+					</ul>
+				</li>
+				<li class="borderlight-bg"></li>				
+				<li>
+					<a href="trust.html">信托</a>		
+				</li>
+				<li class="borderlight-bg"></li>					
+				<li><a href="fund.html">基金</a></li>
+				<li class="borderlight-bg"></li>				
+				<li>
+					<a href="safe.html">安全保障</a>
+					<ul>
+						<li>
+							<a href="measure.html">安全保障措施</a>
+						</li>
+						<li>
+							<a href="safe-organization.html">保障机构介绍</a>
+						</li>
+					</ul>									
+				</li>
+				<li class="borderlight-bg"></li>				
+				<li><a href="help.html">帮助中心</a></li>
+			</ul>
+		</div>
+		
+		
+		
+		<!--中间内容开始-->
+		<div class="finance-box">
+			<div class="container finance-cont">
+			<!--恒溢盈开始-->	
+				<!--面包屑开始-->
+				<ol class="breadcrumb">
+				  <li><a href="finance.html">理理财</a></li>
+				  <li class="crumb-gt">&gt;</li>
+				  <li><a href="finance-hyy.html">恒溢盈</a></li>
+				  <li class="crumb-gt">&gt;</li>
+				  <li class="active">余额页面</li> 
+				</ol>
+				<!--面包屑结束-->
+				<!--余额开始-->	
+					<div class="loan-box">
+						<div class="loan-header row">
+							<div class="col-md-5">
+								<div class="header-titl">
+									恒溢盈 > ZXBL-201511-3061
+								</div>
+								<div class="header-cont">
+									<i class="bz-icon"></i>
+									中信保理到期回购
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="trans">
+									一个月后可转让
+								</div>
+							</div>
+							<div class="col-md-4 deal-txt">
+								<a href="#">协议范本</a>
+							</div>
+						</div>
+						<div class="loan-info clearfix">
+							<div class="left">
+								<table class="top-table">
+									<tbody>
+										<tr>
+											<td width="260" style="text-align: left;padding-left: 30px;">
+												<span>约定年化利率</span>
+												<div class="rate-str">
+													<span class="value orange">8.5</span>
+													<span class="unit orange">%</span>
+												</div>
+											</td>
+											<td width="180">
+												<span>还款期限（月）</span>
+												<div class="rate-str">
+													<span class="value orange">6</span>
+												</div>
+											</td>
+											<td width="375">
+												<span>起投金额（元）</span>
+												<div class="rate-str">
+													<span class="value orange">1000</span>
+												</div>
+											</td>
+											
+										</tr>
+									</tbody>
+								</table>
+								<table class="bott-table">
+									<tbody>
+										<tr>
+											<td width="490" class="left-td">
+												<div class="p">
+													<span class="desc">保障方式</span>
+													<span class="ml18"><span class="orange">100%</span>本金+收益</span>
+												</div>
+												<div class="p">
+													<span class="desc">募集金额</span>
+													<span class="ml18">5,000,000.00元</span>
+												</div>
+												<div class="p loan-progress">
+													<span class="desc">购买进度</span>
+													<div class="progress ml18">
+														<div class="progress-bar" role="progressbar" style="width: 50%">
+															<span class="sr-only">50%</span>
+														</div>
+													</div>
+													<span class="precent ml18 green">67.0%</span>
+												</div>
+											</td>
+											<td>
+												<div class="p">
+													<span class="desc">还款方式</span>
+													<span class="ml18">一次性还本付息</span>
+												</div>
+												<div class="p">
+													<span class="desc">到期本息总额</span>
+													<span class="ml18">5,425,000.00元</span>
+												</div>
+												<div class="p">
+													<span class="desc">剩余时间</span>
+													<span class="ml18">6天16小时28分45秒</span>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="right">
+								<span class="desc">可买金额</span>
+								<div class="balance-str">
+									<span class="value orange">1,646,000</span>
+									<span class="unit">元</span>
+								</div>
+								<p class="available-money">
+									<span class="desc">账户余额</span><br/>
+									<span class="accout-balance">
+										<span class="orange">1,000,00</span>
+										<span>元</span>
+									</span>
+									<a href="#" target="_blank" class="blue_link recharge btn btn-orange">充值</a>
+								</p>
+								<!--输入验证码-->
+								<div class="check-yzm">
+									<span class="desc">请输入验证码：</span>
+									<input type="text" name="" id="" value="bb64p" />
+									<img src="images/financing/yzm-pic.png" />
+								</div>
+								<div class="chang-txt">
+									<a href="#">看不清楚换一张</a>
+								</div>
+								<!--购买-->
+								<div class="buy-btn-box">
+									<a href="#" class="btn btn-orange">购买</a>
+									<p>（1000元起投，1000元递增）</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!--余额结束-->
+			<!--恒溢盈开始-->	
+				
+			</div>	
+		</div>			
+		<!--中间内容结束-->
+		<!--弹框开始-->
+		<div class="layer"></div>
+		<div class="popup">
+			<div class="popup-titl">
+				恒溢盈 > ZXBL-201511-3061
+				<a href="javacript:void(0)" class="close-btn">x</a>
+			</div>
+			<div class="popup-cont">
+				<!--恭喜你-->
+				<div class="popup-success">
+					<div class="popup-succ-top">
+						<i class="suc_icon"></i>
+						<div class="suc_txt">
+							恭喜您，已成功投资<span class="orange">1.00元</span>
+						</div>						
+					</div>
+					<div class="popup-cont-tips">
+						本次投资使用金额：<span>1.00</span>元
+						使用红包：<span>0</span>元
+					</div>
+					<a href="#" class="btn btn-orange">确定</a>
+				</div>
+			</div>
+			<div class="popup-bott">
+				理财有风险  理财需谨慎
+			</div>
+		</div>
+		<!--弹框结束-->
+		<div class="footer-box">
+			<!--底部-->
+			<div class="common-ft">
+				<div class="container ft-cont clearfix">
+					<div class="pull-left commun-meth">
+						<i class="meth-icon"></i>
+						<div class="meth-time">(9:00-21:00)</div>
+						<div class="meth-phone">888-888-8888</div>
+						<div class="commun-number">p2p理财交流公共帐号：88888888</div>
+						<span class="border-line"></span>
+					</div>
+					<div class="pull-left ft-nav">
+						<div class="row">
+							<ul class="col-md-4">
+								<li>
+									<a href="#">关于我们</a>
+								</li>
+								<li>
+									<a href="#">平台介绍</a>
+								</li>
+								<li>
+									<a href="#">法律法规</a>
+								</li>
+								<li>
+									<a href="#">安全保障</a>
+								</li>
+							</ul>
+							<ul class="col-md-4">
+								<li>
+									<a href="#">新手指南</a>
+								</li>
+								<li>
+									<a href="#">官方论坛</a>
+								</li>
+								<li>
+									<a href="#">名词解释</a>
+								</li>
+								<li>
+									<a href="#">理财知识</a>
+								</li>
+							</ul>
+							<ul class="col-md-4">
+								<li>
+									<a href="#">联系我们</a>
+								</li>
+								<li>
+									<a href="#">诚聘英才</a>
+								</li>
+								<li>
+									<a href="#">友情链接</a>
+								</li>
+								<li>
+									<a href="#">网站地图</a>
+								</li>
+							</ul>
+						</div>
+						<span class="border-line"></span>
+					</div>
+					<!--微信-->
+					<div class="pull-left focus-weixin">
+						<div class="row">
+							<dl class="col-md-6">
+								<dt>
+										<img src="images/common/p2p-weixin-gz.jpg" alt="" />
+									</dt>
+								<dd>
+									关注p2p微信
+									<br/>了解P2P大事件
+								</dd>
+							</dl>
+							<dl class="col-md-6">
+								<dt>
+										<img src="images/common/p2p-weixin-sj.jpg" alt="" />
+									</dt>
+								<dd>
+									手机p2p
+									<br/>方便又放心
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--版权信息-->
+			<div class="copy-right">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="corp-comp">
+								<a href="#">
+									<i class="icon01 in-block"></i>
+								</a>
+								<a href="#">
+									<i class="icon01 in-block"></i>
+								</a>
+								<a href="#">
+									<i class="icon01 in-block"></i>
+								</a>
+								<a href="#">
+									<i class="icon01 in-block"></i>
+								</a>
+								<a href="#">
+									<i class="icon01 in-block"></i>
+								</a>
+								<a href="#">
+									<i class="icon01 in-block"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="copy-right-cont">
+								<p class="p1">
+									<span class="in-block">©Copyright(c)2014 iqianjin.com.All Rights Reserved</span>
+									<a href="#">京ICP备14017729</a>
+								</p>
+								<p class="p2">
+									<span class="in-block">京公网安备11010102001399号</span>
+									<a href="#">京ICP证150121号</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+	</body>
+</html>		

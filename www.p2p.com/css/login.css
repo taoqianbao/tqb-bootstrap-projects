@@ -1,0 +1,387 @@
+
+.top-content .header .login-title{
+	line-height: 35px;
+	font-size: 35px;
+	color: #494848;
+}
+
+
+.login-cont{
+	padding-bottom: 57px;
+	background-color: #db293f;
+}
+
+
+.login{
+	padding-bottom: 30px;
+	background-color: #fff;
+	margin: 100px 0 150px;
+}
+
+.login-top{
+	padding: 25px 0 10px;
+	border-bottom: 1px solid #a4a3a3;
+}
+
+.login-top h2{
+	font-size: 26px;
+	color: #494848;
+}
+
+.login-top a,
+.infor a{	
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.login .form-control{
+	height: 37px;
+	margin-top: 20px;
+}
+
+
+.login .form-control{	
+	padding-left: 25px;
+}
+
+.login .form-control01{
+	background: url(../images/login/name-icon.jpg) no-repeat 5px center;
+}
+
+.login .form-control02{
+	background: url(../images/login/password-icon.jpg) no-repeat 5px center;
+}
+
+.login .form-control03{
+	width: 125px;
+	background: url(../images/login/login-icon.jpg) no-repeat 5px center;
+}
+
+.login img{
+	vertical-align: bottom;
+}
+
+.login .btn-refresh{
+	width: 62px;
+	height: 37px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #ff0000;
+	border-color: #ff0000;
+}
+
+
+.login .btn-lg{
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	background-color: #ff0000;
+	border-color: #ff0000;
+}
+
+
+/*20151225ylh*/
+
+/*animated begin*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+@-webkit-keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+
+@-webkit-keyframes bounceInLeft {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes bounceInLeft {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes bounceInRight {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+@keyframes bounceInRight {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+/*animated end*/
+
+.animation-box{
+	position: relative;
+	width: 900px;
+	height: 554px;
+}
+
+.animation-box .animated{
+	position:absolute;
+}
+
+.ani-main-cont{
+	top:163px;
+	left:128px;
+	z-index: 99;
+	width: 467px;
+	height: 230px;
+}
+
+.ani-circle{
+	top:50%;
+	left:50%;
+	width: 432px;
+	height: 372px;
+	margin:-186px 0 0 -300px;
+	animation-iteration-count:10;
+   -webkit-animation-iteration-count:10; 
+}
+
+.ani-rate{
+	top:165px;
+	left:50px;
+	width: 119px;
+	height: 64px;
+}
+
+.ani-dollar01{
+	top:63px;
+	left:496px;
+	width: 51px;
+	height: 71px;
+}
+
+.ani-dollar02{
+	top:355px;
+	left:109px;
+	width: 56px;
+	height: 64px;
+}
+
+.ani-dollar03{
+	top:415px;
+	left:570px;
+	width: 72px;
+	height: 75px;
+}
+
+
+
+.circle-rotate {
+  -webkit-animation-name: circle-rotate;
+  animation-name: circle-rotate;
+}
+
+@keyframes circle-rotate
+
+{
+　	0%{-webkit-transform:rotate(0deg)}
+
+	50%{-webkit-transform:rotate(180deg)}
+	
+	100%{-webkit-transform:rotate(360deg)}
+}
+
+@-webkit-keyframes circle-rotate
+
+{
+
+　　0%{-webkit-transform:rotate(0deg)}
+
+  50%{-webkit-transform:rotate(180deg)}
+	
+  100%{-webkit-transform:rotate(360deg)}
+
+}
+

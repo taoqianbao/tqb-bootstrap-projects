@@ -1,0 +1,215 @@
+
+.register-container{
+	width: 100%;
+	height: 890px;
+	background: url(../images/account/reg-bg.jpg) no-repeat center center;
+}
+
+.register-box{
+	width: 530px;
+	height: 620px;
+	background:url(../images/account/reg-dot-bg.png) repeat;
+	margin: 70px auto;
+	padding: 0 65px;
+}
+
+
+.register-box h4{
+	height: 130px;
+	line-height: 130px;
+	font-size: 28px;
+	color: #000;
+	text-align: center;
+}
+
+.register-box .role-box {
+	margin: 0;
+}
+
+.register-box .role-box .role {
+	width: 195px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 45px;
+	background-color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #656565;
+}
+.role-box .role.role-active,
+.role-box .role:hover{
+	background-color:#f76b04;
+	color: #fff;
+}
+
+
+.register-box .role01{
+	 margin-right: 10px;
+	 
+	 
+}
+
+.register-box .role i{
+	margin-left: -30px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.register-box .role01 i{
+	 display: inline-block;
+	 width: 16px;
+	 height: 25px;
+	 background:url(../images/account/regin-icon01.png) repeat;
+}
+
+.register-box .role02 i{
+	 display: inline-block;
+	 width: 22px;
+	 height: 22px;
+	background:url(../images/account/regin-icon02.png) repeat;
+}
+
+.orange{
+	color: #f76b04;
+}
+
+.register-box p{
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.register-box .input{
+	height: 40px;
+	padding-left: 45px;
+	margin-bottom: 5px;
+}
+
+.register-box .input01{
+	background:url(../images/account/regin-icon06.png) no-repeat 10px center #fff;
+}
+
+.register-box .input02{
+	background:url(../images/account/regin-icon05.png) no-repeat 10px center #fff;
+}
+
+.register-box .input03{
+	display: inline-block;
+	width: 230px;
+	background:url(../images/account/regin-icon04.png) no-repeat 10px center #fff;
+}
+
+.register-box .input04{
+	background:url(../images/account/regin-icon03.png) no-repeat 10px center #fff;
+}
+
+.register-box .password-box{
+	
+}
+
+.register-box .password-box .row{
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.register-box .password-box .row>div{
+	text-align: center;
+	border-bottom: 5px solid transparent;
+}
+
+.register-box .password-box .row>div.low{
+	color: #f00;
+	border-color: #f00;
+}
+
+.register-box .password-box .row>div.middle{
+	color: #e0d400;
+	border-color: #e0d400;
+}
+
+.register-box .password-box .row>div.power{
+	color: #07c75c;
+	border-color: #07c75c;
+}
+
+
+.register-box .secur-code {	
+  vertical-align: bottom;
+}
+
+.register-box .secur-code span a{	
+  vertical-align: bottom;
+}
+
+.register-box .invite-code{
+	
+}
+
+.register-box .invite-code p{
+	margin-top: -4px;
+}
+
+.register-box .checkbox a{
+	color: #2f40c0;
+}
+
+
+.register-box .btn-box{
+	padding-top: 5px;
+	text-align: center;
+}
+
+
+.register-box .btn-box a{
+	display: inline-block;
+	width: 404px;
+	height: 45px;
+	font-size: 28px;
+	background-color: #f76b04;
+	color: #fff;
+}
+
+.register-box .btn-box a:hover{
+	background-color: #e15f00;
+}
+
+
+/*newuser*/
+
+.newuser-box{
+	
+}
+
+.newuser-box .newuser-top{
+	background-color: #dededd;
+}
+
+.newuser-box .newuser-top .newuser-top-banner{
+	
+}
+
+.newuser-box .newuser-top .newuser-regis{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

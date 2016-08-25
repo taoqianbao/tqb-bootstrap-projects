@@ -1,0 +1,332 @@
+/*common header & footer*/
+
+/*header*/
+.index-body .container{
+	padding: 0;
+}
+
+
+.top-content{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.top-content .topbar-content{
+	height: 35px;
+	line-height: 35px;
+	border-bottom:1px dashed #e2e2e2;
+	margin: 0;
+}
+
+.top-content .topbar-content .topbar-left,
+.top-content .topbar-content .topbar-right{
+	font-size: 12px;
+	color: #73736e;
+	padding: 0;
+}
+
+.top-content .topbar-content .topbar-left .welcom-p2p{
+	margin-right: 10px;
+}
+
+.top-content .topbar-content .topbar-left a{
+	color: #313dcd;
+	margin:0 5px;
+}
+
+.top-content .topbar-content .topbar-left a:hover{
+	color: #f95408;
+}
+
+.top-content .topbar-content .topbar-right{
+	    margin-right: -5px;
+}
+
+.top-content .topbar-content .topbar-right .icon{
+	width: 23px;
+	height: 23px;
+	vertical-align: middle;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.top-content .topbar-content .topbar-right .icon-xlwb{
+	background-image: url(../images/common/icon_xlwb.jpg);
+}
+
+.top-content .topbar-content .topbar-right .icon-wx{
+	background-image: url(../images/common/icon_wx.jpg);
+}
+
+.top-content .header {
+	
+}
+
+.top-content .header h1{
+	padding: 12px 0 15px 45px;
+}
+
+.top-content .header .my-accout{
+	position: relative;
+	padding: 15px;
+	height: 60px;
+	padding-top: 35px;
+}
+
+.top-content .header .my-accout .my-accout-cont{
+	display: inline-block;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+
+.top-content .header .my-accout .glyphicon{
+	color:#f76b04;
+}
+
+.top-content .header .my-accout ul{
+	position: absolute;
+	top: 60px;
+	right: 25px;
+	z-index: 9999;
+	width: 90px;
+	padding: 0 4px;
+	border-top: 1px solid #727272;
+	text-align: center;
+	background-color: #fff;
+	display: none;
+}
+
+.top-content .header .my-accout ul li{
+	height: 32px;
+	line-height: 32px;	
+}
+
+.top-content .header .my-accout ul li a{
+	display: block;
+	border-bottom: 1px solid #f76b04;
+	
+}
+
+.top-content .header .my-accout ul li.exit-li a,
+.top-content .header .my-accout ul li a:hover{
+	width: 90px;
+	margin-top: -1px;
+	margin-left: -4px;
+	color: #fff;
+	background-color: #959595;
+	border: none;
+}
+
+.top-content .header .my-accout ul li a:hover{
+	margin-top: 0;
+	background-color: #f76b04;
+}
+
+
+.top-content .header .my-accout ul li.exit-li a:hover{
+	margin-top: -1px;
+}
+
+
+
+.top-content .header .my-accout-cont:hover ul{
+	display: block;
+}
+
+
+
+.nav-box{
+	background-color: #f76b04;
+}
+.nav-box ul.nav{
+
+}
+.nav-box ul.nav>li{
+	position: relative;
+	float: left;
+	width: 193px;
+}
+.nav-box ul.nav li.borderlight-bg{
+	width: 2px;
+	height: 35px;
+	background: url(../images/common/nav-bg.png) no-repeat left center;
+}
+.nav-box ul.nav li a{
+	color: #fff;
+	padding:8px 0;
+}
+
+.nav-box ul.nav li a:hover,
+.nav-box ul.nav li a:focus{
+	background-color: #ea6300;
+}
+
+.nav-box ul.nav>li ul{
+	position: absolute;
+	top: 35px;
+	left: 0;
+	z-index: 100000;
+	width: 100%;
+	background-color: #fab07f;
+	display: none;
+}
+
+.nav-box ul.nav>li:hover ul{
+	display: block;
+}
+
+.nav-box ul.nav>li ul li a{
+	display: block;
+}
+
+
+
+/*footer*/
+.footer-box{
+	
+}
+
+.common-ft{
+	background-color: #363b3f;
+	color: #757b87;
+}
+
+.common-ft .row{
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.common-ft .ft-cont{
+	
+}
+
+.common-ft .commun-meth{
+	position: relative;
+	width: 328px;
+	padding: 22px 40px 20px 0;
+	text-align: center;
+}
+
+
+.common-ft .commun-meth .meth-icon{
+	display: inline-block;
+	width: 46px;
+	height: 50px;
+	background: url(../images/common/commun-meth-bg.png) no-repeat;
+}
+
+
+.common-ft .commun-meth .meth-time{
+	line-height: 30px;
+}
+
+
+.common-ft .commun-meth .meth-phone{
+	font-size: 28px;
+	line-height: 20px;	
+}
+
+.common-ft .commun-meth .commun-number{
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.common-ft .border-line{
+	position: absolute;
+	right: 0;
+	top: 30px;
+	display: block;
+	width: 1px;
+	height: 120px;
+	background-color: #404549;
+}
+
+
+.common-ft .ft-nav{
+	position: relative;
+	width: 535px;
+}
+
+.common-ft .ft-nav ul{
+	padding-top: 25px;
+}
+
+.common-ft .ft-nav ul li{
+	line-height: 31px;
+}
+
+.common-ft .ft-nav ul li a{
+	color: #757b87;
+}
+
+
+.common-ft .ft-nav ul li a:hover{
+	color: #fff;
+}
+
+
+.common-ft .focus-weixin{
+	width: 307px;
+	padding-top: 30px;
+}
+
+.common-ft .focus-weixin dd{
+	line-height: 20px;
+}
+
+.common-ft .focus-weixin .row div{
+	
+}
+
+
+.copy-right{
+	background-color: #404549;
+}
+
+.copy-right .corp-comp{
+	padding: 18px 0 15px;
+}
+
+.copy-right .corp-comp a i{
+	width: 67px;
+	height: 24px;
+	background:url(../images/common/corp-comp01.jpg) no-repeat ;
+}
+
+.copy-right .corp-comp a:hover i{
+	
+}
+
+
+.copy-right .copy-right-cont{
+	color: #707E8C;
+	font-size: 14px;
+	text-align: right;
+}
+
+
+.copy-right .copy-right-cont .p1 {
+    margin-top: 8px;
+    line-height: 20px;
+}
+
+.copy-right .copy-right-cont p span {
+	width: 350px;
+	text-align: left;
+}
+
+
+.copy-right .copy-right-cont a{
+	color: #707E8C;
+}
+
+
+.copy-right .copy-right-cont a:hover{
+	color: #fff;
+}
+
+
+
+

@@ -1,0 +1,1314 @@
+
+body{
+	background-color: #f5f5f5;
+}
+
+.container .row>div{
+	padding: 0;
+}
+
+
+.financing-introduction-wrap {
+
+}
+
+.financing-introduction-wrap .quick_login {
+	height: 320px;
+	position: relative;
+}
+
+.financing-introduction-wrap .quick_login .index_bg {
+    position: absolute;
+    top: 0px;
+    right: 0px;   
+    width: 300px;
+    height: 320px;
+    background-color: #000;
+    z-index: 9;
+    opacity: 0.4;
+}
+
+.financing-introduction-wrap .quick_login .index_login {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 320px;
+    color: #FFF;
+    z-index: 10;
+}
+
+.financing-introduction-wrap .quick_login .index_login p.t {
+    font-size: 22px;
+    color: #FFFEFE;
+    line-height: 60px;
+}
+
+
+.financing-introduction-wrap .quick_login .index_login a.d {
+    display: block;
+    color: #FFF;
+    height: 106px;
+    padding-top: 5px;
+    border-bottom: 1px solid #A5A5A5;
+    transition: all 0.3s ease 0s;
+}
+
+.financing-introduction-wrap .quick_login .index_login a.d:hover {
+  color: #fff;
+  padding-top: 0px;
+}
+
+.financing-introduction-wrap .quick_login .index_login a.d ul.l {
+    padding: 70px 30px 0px;
+    height: 101px;
+    background: url("../images/financing/index_safe_bg.png") no-repeat center 0px;
+}
+
+.financing-introduction-wrap .quick_login .index_login a.d ul.l li {
+    width: 120px;
+    float: left;
+}
+
+.financing-introduction-wrap .quick_login .index_login .l_t {
+    position: relative;
+    margin-top: 10px;
+    height: 138px;
+    overflow: hidden;
+    padding-left: 48px;
+}
+
+
+.financing-introduction-wrap .quick_login .index_login .l_t ul.l_list {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+.financing-introduction-wrap .quick_login .index_login .l_t ul.l_list li {
+    width: 245px;
+    height: 46px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 18px;
+    background: url("../images/financing/index_icon_bg.png") no-repeat 0px 0px;
+    padding: 5px 0px 5px 46px;
+}
+
+}
+.financing-introduction-wrap .quick_login .index_login .l_t ul.l_list li p.one {
+    height: 18px;
+    width: 240px;
+    overflow: hidden;
+}
+
+.financing-introduction-wrap .quick_login .index_login .l_t ul.l_list li p.two span.f {
+    padding-right: 16px;
+}
+
+.financing-introduction-wrap .quick_login .index_login .l_t ul.l_list li p.two {
+    color: #C7C7C7;
+}
+
+.financing-introduction-wrap .thumbnail{
+	position: relative;
+ 	width: 100%;
+    height: 320px;
+    margin-top: -320px;	
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+.financing-introduction-wrap .carousel-inner>.item>a>img {
+    height: 320px;
+}
+
+
+.financing-introduction-wrap .carousel-indicators li{
+	width: 26px;
+ 	height: 5px;
+ 	border-radius: 0;
+ 	background-color: #FFF;
+ 	border: none;
+}
+
+.financing-introduction-wrap .carousel-indicators .active,
+.financing-introduction-wrap .carousel-indicators li:hover {
+    background-color: #ff6825;
+}
+
+
+/*
+.lunhuan {
+    width: 100%;
+    height: 320px;
+    position: relative;
+    margin-top: -320px;
+}
+
+.lunhuan #lunhuanback {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+
+.lunhuan #lunhuanback a {
+    display: block;
+    width: 100%;
+    height: 320px;
+}
+
+.lunhuan #lunhuanback p {
+    width: 100%;
+    height: 320px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+    background: url(../images/financing/lunhuanback-p01.jpg) no-repeat center center;
+    
+}
+
+.lunhuan .lunhuan_main {
+  width: 1190px;
+  height: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+#lunbonum {
+  height: 10px;
+  line-height: 23px;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  margin-left: -80px;
+  z-index: 5;
+  padding-top: 2px;
+}
+#lunbonum li {
+  width: 26px;
+  height: 5px;
+  float: left;
+  margin-right: 17px;
+  background: #fff;
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+#lunbonum li:after,
+#lunbonum li:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  content: '';
+  width: 26px;
+  height: 0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ff6825;
+  z-index: 1;
+}
+#lunbonum li:hover:before {
+  height: 6px;
+}
+#lunbonum .lunboone:after {
+  height: 6px;
+}
+
+*/
+.finance-box{
+	background-color: #F5F5F5;
+	padding: 10px 0 35px;
+}
+
+.finance-cont{
+	padding: 10px 0 35px;
+}
+
+.row{
+	margin: 0;
+}
+
+.finance-cont .expert{
+	padding: 20px 0 25px;
+	background-color: #fff;
+}
+
+.finance-cont .expert>div{
+	padding: 0;	
+	text-align: center;
+	border-right: 1px solid #b7b7b7;
+}
+
+.finance-cont .expert h3{
+	font-size: 24px;
+	color: #000;
+}
+
+
+.finance-cont .expert p.wd-selected{
+	font-size: 14px;
+	color: #000;	
+	line-height: 35px;
+}
+
+
+.finance-cont .expert .expert-bg{
+	display: inline-block;
+	width: 82px;
+	height: 132px;
+	background-image: url(../images/financing/zjp-bg.png);
+}
+
+.finance-cont .expert .advantage{
+	color: #f76b04;
+	padding: 15px 0 0;
+}
+
+.finance-cont .expert .advantage .span01{
+	display: inline-block;
+	width: 125px;
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+.finance-cont .expert .advantage .span02{
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+}
+
+.finance-cont .newsvip{
+	background-color: #fff;
+	margin: 10px 0 20px;
+}
+
+.newsvip-title{
+    height: 100px;
+	background-color: #f76b04;
+	padding: 15px 0 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.newsvip-title h4{
+	font-size: 36px;
+}
+
+.newsvip-title p{
+	display: inline-block;
+    padding: 0 35px;
+	position: relative;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.newsvip-title p span{
+	position: absolute;
+	top: 50%;
+	width: 25px;
+	height: 1px;
+	background-color: #fff;
+	font-size: 0;
+	overflow: hidden;
+	
+}
+
+.newsvip-title p span.span01{
+	left: 5px;	
+}
+
+
+.newsvip-title p span.span02{
+	right: 5px;	
+}
+
+
+.newsvip-cont-box{
+    height: 100px;
+	padding: 10px 0;
+	border-top: 1px solid #f76b04;
+	border-bottom: 1px solid #f76b04;
+}
+
+
+.newsvip-cont{
+    border-right: 1px solid #F6F6F6;
+    padding-left: 40px;
+}
+
+.newsvip-cont .t1 {
+    padding-top: 1px;
+}
+
+.speailtitle {
+    line-height: 22px;
+    display: block;
+    color: #A9A9A9;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.newsvip-cont .t1 a.a1 {
+    font-size: 18px;
+    color: #323232;
+}
+
+
+.newsvip-cont .t1 a.a1:hover{
+    color: #f95408;
+}
+
+
+.newsvip-cont .t1 a.a1:hover,
+.newsvip-cont .t1 a.a2:hover,
+.newsvip-cont .t1 a.a2 span,
+.hc-honey .llc_type a.more:hover{
+    color: #f95408;
+}
+
+.newsvip-cont .t1 span.speailtitle {
+    display: inline-block;
+    margin-left: 6px;
+	color: #BEBEBE;
+}
+
+
+.newsvip-cont .t1 a.a2{
+    color: #BEBEBE;
+    float: right;
+    margin-right: 18px;
+}
+
+.newsvip-cont .t2 {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    color: #797979;
+}
+
+.newsvip-cont .t2 .rate {
+    color: #FF6825;
+    font-size: 28px;
+}
+
+.orange {
+    color: #FF6825!important;
+}
+
+.green{
+	 color: #a4c644!important;
+}
+
+span.return-rate{
+    display: inline-block;
+    height: 17px;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0px 3px;
+    border-radius: 2px;
+    color: #FFF;
+    position: relative;
+    left: 6px;
+    top: -4px;
+    background-color: #f76b04;
+}
+
+
+.newsvip-cont .t2 .period {
+    margin-left: 32px;
+}
+
+.newsvip-cont .t2 .period_num {
+    margin-right: 26px;
+}
+
+.btn-orange{
+    background-color: #FF6825;
+    color: #FFF;
+}
+
+.btn-orange:hover{
+	background-color: #ff4200;
+    color: #FFF;
+}
+
+ .btn_xinshou {
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    right: 16px;
+    bottom: 0px;
+    padding: 6px 20px !important;
+}
+.newsvip-why{
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 26px;
+    padding-right: 16px;
+    font-size: 12px;
+    border: 1px solid #f76b04;
+    border-left: none;
+}
+
+.newsvip-why .t {
+    line-height: 20px;
+    color: #BEBEBE;
+}
+
+.newsvip-why .black {
+    color: #5E5E5E;
+}
+
+
+
+.hc-honey{
+	
+}
+
+.hc-honey>div{
+	border: 1px solid #dcdcdc;
+	margin-bottom: 20px;
+}
+
+.hc-honey .llc_type,
+.hc-honey .llc_cont{
+   background-color: #fff;
+}
+
+.hc-honey .llc_type{
+   padding: 10px 0;
+}
+
+.hc-honey .llc_type a.more {
+    float: right;
+    color: #A5A5A5;
+}
+
+.hc-honey .llc_type a.b:hover {
+    color: #FF6825;
+}
+
+.hc-honey .llc_type a.b {
+    font-size: 18px;
+    color: #7a7a7a;
+    margin-right: 10px;
+    margin-left: 21px;
+    font-weight: bold;
+}
+
+.hc-honey .llc_type span {
+	font-size: 12px;
+    color: #7a7a7a;
+}
+
+.hc-honey .llc_type span.s,
+.hc-honey .llc_type span.b {
+    padding-right: 20px;
+}
+
+.hc-honey .llc_cont .table{
+	margin-bottom: 0;
+}
+
+.hc-honey .llc_cont th,
+.loan-list .llc_cont th{
+	font-size: 12px;
+	color: #7a7a7a;
+	padding: 0;
+	background-color: #dddddc;
+	text-align: center;
+}
+
+.hc-honey .llc_cont td,
+.loan-list .llc_cont td{
+	font-size: 13px;
+	color: #7a7a7a;
+	text-align: center;
+	vertical-align: middle; 
+}
+
+.hc-honey .llc_cont .table tr td h6 ,
+.loan-list .llc_cont .table tr td h6 {
+    font-size: 14px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.hc-honey .llc_cont .table tr td .number ,
+.loan-list .llc_cont .table tr td .number{
+    font-size: 22px;
+}
+
+.hc-honey .llc_cont .table tr td .btn.btn_invest,
+.loan-list .llc_cont .table tr td .btn.btn_invest{
+    font-size: 14px;
+    width: 66px;
+    /*height: 25px;*/
+    line-height: 25px;
+    /*padding: 6px 20px !important;*/
+    padding: 0;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #ffd9c8;
+}
+
+.hc-honey .hcy{
+	
+}
+
+
+
+
+
+.hc-honey .hbb{
+	
+}
+
+
+
+.hc-honey .hst{
+	
+}
+
+
+
+.hc-honey .zrq{
+	
+}
+
+
+
+.hc-honey .bz-organ{
+	
+}
+
+.hc-honey .bz-organ .organ_btn {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: 1px solid #E0E0E0;
+    width: 41px;
+    height: 15px;
+    font-size: 12px;
+    color: #dcdcdc;
+}
+
+.hc-honey .bz-organ .organ_btn a {
+	display: inline-block;
+	width: 13px;
+	top: -1px;
+    color: #dcdcdc;
+    font-weight: normal;
+    line-height: 13px;
+    text-align: center;
+}
+.hc-honey .bz-organ .organ_btn a:hover {
+   color: #f95408;
+}
+
+.hc-honey .bz-organ .organ_btn a.glyphicon-menu-left{
+	width: 19px;
+	border-right: 1px solid #E0E0E0;
+
+}
+
+.hc-honey .bz-organ .organ_list_box{
+	padding: 0 20px 10px;
+    background-color: #fff;
+}
+
+.hc-honey .bz-organ .organ_list {
+    position: relative;
+/*    width: 1170px;*/
+    height: 120px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.hc-honey .organ_list .organ_list_ul {
+    position: absolute;
+    left: 0px;
+}
+
+.hc-honey .organ_list .organ_list_ul .list_item {
+    float: left;
+    width: 165px;
+    height: 100px;
+    padding-right: 25px;
+}
+
+.hc-honey .organ_list  .organ_list_ul .list_item .logo-block {
+    width: 139px;
+    height: 39px;
+    margin-bottom: 20px;
+}
+
+.hc-honey .organ_list  .organ_list_ul .list_item  .logo-block a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.7;
+}
+
+
+/*hyy*/
+
+.hyy-container{
+	padding: 0 90px!important;
+	background-color: #f5f5f5;
+}
+
+.list-llc-nav {
+    padding-top: 8px;
+    height: 86px;
+    padding-bottom: 20px;
+   
+}
+
+.list-llc-nav ul li.ui-select-list {
+    float: left;
+    width: 190px;
+    line-height: 58px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 8px;
+    font-size: 24px;
+    
+}
+
+.list-llc-nav ul li.ui-select-list.current {
+   
+}
+
+.list-llc-nav ul li.ui-select-list a {
+	display: block;
+    width: 100%;
+    height: 56px;
+    color: #ff6825;
+    opacity: 0.5;
+    border-bottom: 3px solid #e5e6e6;
+}
+
+.list-llc-nav ul li.ui-select-list.current a,
+.list-llc-nav ul li.ui-select-list a:hover {
+    opacity: 1.0;
+    border-color: #ff6825;
+}
+
+.filter-container {
+	font-size: 12px;
+    color: #989999;
+    padding: 15px 0px 5px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.filter-container label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    color: #999;
+    margin: 1px 20px 0px 0px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.filter-container .filter-content {
+    margin-left: 100px;
+}
+
+.filter-container .filter-content .filter-item {
+    float: left;
+    cursor: pointer;
+    margin: 0px 0px 10px 5px;
+    line-height: 20px;
+    padding: 0px 13px;
+    border-radius: 4px;
+}
+
+.filter-container .filter-content .filter-item.active, .filter-container .filter-content .filter-item:hover {
+    background-color: #ff6825;
+    color: #FFF;
+}
+
+.hyy-container .loan-list{
+	background-color: #fff;
+	    border: 1px solid #dcdcdc;
+}
+
+.hyy-container .loan-point {
+    height: 43px;
+    line-height: 42px;
+    padding-left: 60px;
+    color: #7a7a7a;
+    background: transparent url("../images/financing/index_icon_bg.png") no-repeat 30px -46px;
+}
+
+.hyy-container .loan-point span.gap {
+    padding: 0px 20px;
+    color: #E6E6E6;
+}
+
+
+.hyy-container .loan-point .time-space {
+    display: inline-block;
+    margin-left: 10px;
+    background: transparent url("../images/financing/index_icon_bg.png") no-repeat 0px -88px;
+    padding-left: 33px;
+}
+
+.form-control[disabled], 
+.form-control[readonly]{
+    cursor: not-allowed;
+}
+
+.loan-list .table{
+	margin-bottom: 0;
+}
+
+.loan-list .table .f-input {
+    display: block;
+    border: 1px solid #E6E6E6;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;  
+    margin: 0px auto;
+    padding: 0;
+    background-color: #FFF!important;
+    border-radius: 0;
+}
+
+.loan-list .table .f-input.amount-input{
+	margin-bottom: 5px;
+}
+
+.loan-list .llc_cont .table tr td .btn.btn-gray{
+	background-color: #afafaf ;
+	border-color: #afafaf;
+	color: #fff;
+}
+
+
+.pagination-box {
+	text-align: right;
+	padding-right: 50px;
+	padding-bottom: 15px;
+}
+
+.pagination-box >ul{
+	display: inline-block;
+}
+
+
+.pagination > .active > a,
+.pagination > .active > a:hover, 
+.pagination > .active > a:focus{
+	color: #fff;
+    background-color: #DDD;
+    border-color: #DDD;
+}
+
+.pagination > li > a,
+.pagination > li > a:hover{
+	color: #5E5E5E;
+}
+
+.xinshoubiao {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+}
+
+.xinshoubiao>div{
+	padding: 0;
+}
+
+.xinshoubiao .newusers-banner{
+	
+}
+
+.xinshoubiao .newusers-info{
+    /*padding-left: 43px;*/
+    padding-top: 14px;
+}
+
+.xinshoubiao .newusers-info .list {
+	height: 100px;
+	margin-left: -10px;
+	overflow: hidden;
+}
+
+.xinshoubiao .newusers-info .list li {
+    line-height: 18px;
+    font-size: 12px;
+    color: #909090;
+    padding: 10px 0px 5px 30px;
+    background: url("../images/financing/index_icon_bg.png") no-repeat 0px 0px;
+}
+
+.xinshoubiao .newusers-info .list li span.amountText {
+    margin-left: 20px;
+}
+
+.breadcrumb>li.crumb-gt {
+    color: #ccc;
+
+}
+
+.breadcrumb>li {
+    font-size: 16px;
+
+}
+
+.breadcrumb>li+li:before {
+	display: none;
+}
+
+
+.loan-box{
+	
+}
+
+.loan-box .row>div{
+	padding: 0;
+}
+
+.finance-cont .breadcrumb{
+	padding-left: 50px;
+}
+
+.loan-header{
+	background-color: #efe9e9;
+	padding: 15px 0 10px;
+}
+
+.loan-header .header-titl{
+	padding-left: 50px;
+	font-size: 24px;
+}
+
+.loan-header .header-cont{
+	padding-left: 50px;
+    padding-top: 5px;
+	
+}
+
+.loan-header .header-cont .bz-icon{
+	display: inline-block;
+	width: 12px;
+	height: 15px;
+	vertical-align: middle;
+	background: url(../images/financing/bz-icon.png) no-repeat left center;
+}
+
+.loan-header .trans{
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #7d7d7d;
+	border-radius: 5px;
+}
+
+.loan-header .deal-txt{
+	text-align: right;
+	padding:10px 45px 0 0!important;
+}
+
+
+.loan-info{
+	background-color: #fff;
+}
+
+.loan-info .left {
+    width: 810px;
+    float: left;
+    padding: 60px 0 20px;
+    background-color: #fff;
+}
+
+.loan-info .value {
+    font-size: 25px;
+}
+
+.loan-info .form-control {
+	display: inline-block;
+	width: 280px;
+    height: auto;
+}
+
+
+
+.loan-info .top-table td{
+	text-align: center;
+}
+
+.loan-info .left .top-table{
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.loan-info .rate-str{
+	padding-bottom: 20px;
+}
+
+.loan-info .left td div.p{
+	padding: 5px 0px;
+}
+
+.loan-info .left td.left-td div.p{
+	padding-left: 30px;
+	
+}
+
+.loan-info .bott-table{
+	margin-top: 30px;
+}
+
+.loan-info .bott-table td{
+	
+}
+
+.loan-info span {
+    color: #323232;
+}
+
+
+span.desc {
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.ml18 {
+    margin-left: 18px;
+}
+
+.loan-info .left td.left-td .loan-progress{
+	
+}
+
+.loan-info .left td.left-td .loan-progress{
+	
+}
+
+.loan-info .left td.left-td .loan-progress .progress{
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 0;
+	vertical-align: bottom;
+}
+
+.loan-info .left td.left-td .loan-progress .progress .progress-bar{
+	background-color: #a4c644;
+}
+
+
+.loan-info .right {
+    width: 360px;
+    min-height: 258px;
+/*    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;*/
+    padding: 30px;
+    padding-top: 60px;
+    float: left;
+    text-align: left;
+    background-color: #ffd4c6;
+}
+
+
+.loan-info .right .balance-str {
+	padding: 10px 0;
+    border-bottom: 2px solid #f76b04;
+}
+
+.loan-info .right p.available-money {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.loan-info .right p.available-money a.recharge {
+    position: absolute;
+    right: 8px;
+    padding: 2px 12px;
+}
+
+.loan-info .right .accout-balance{
+	font-size: 18px;
+	color: #757575;
+}
+
+.loan-info .right .check-yzm{
+	padding-top: 10px;
+}
+
+.loan-info .right .check-yzm input{
+	width: 90px;
+	height: 30px;
+	border: 0;
+	padding: 0 5px;
+	border-radius:5px 0 0 5px ;
+}
+
+.loan-info .right .chang-txt{
+	font-size: 12px;
+	color: #757575;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	text-align: right;
+}
+
+.loan-info .buy-btn-box{
+	text-align: center;
+}
+
+.loan-info .buy-btn-box .btn{
+	width: 275px;
+	height: 30px;
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+.loan-info .buy-btn-box p{
+	padding-top: 5px;
+	font-size: 14px;
+	color: #757575;
+}
+
+.con_left_bline{
+	margin-top: 20px;
+}
+
+
+.con_left_bline .nav-tabs li{
+	padding: 0;
+	text-align: center;	
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+	border-top:4px solid #f17420; 
+}
+
+.nav-tabs > li > a {
+  margin-right: 0;
+}
+
+.nav-tabs>li>a, 
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	border-bottom: 1px solid transparent;
+}
+
+.layer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.3;
+}
+
+.popup{
+	width: 495px;
+	height: 370px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -248px;
+	margin-top: -185px;												
+}
+
+.popup .popup-titl{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #fe6102;
+}
+
+.popup .popup-titl .close-btn{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	display: block;
+	width: 18px;
+	/*height: 18px;*/
+	text-align: center;
+	margin-top: -10px;
+	line-height: 18px;
+	border-radius: 50%;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.popup .popup-cont{
+	padding-top: 75px;
+	text-align: center;
+	background-color: #fff;
+} 
+
+.popup .popup-cont .popup-succ-top{
+	line-height: 52px;	
+}
+
+.popup .popup-cont .suc_icon {
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	vertical-align: top;
+	background: url(../images/financing/popup_suc_icon.jpg) no-repeat;
+	
+} 
+
+.popup .popup-cont .suc_txt{
+	display: inline-block;
+	font-size: 24px;
+	color: #77b716;
+} 
+
+.popup .popup-cont .btn{
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+    padding: 0;
+	letter-spacing: 5px;
+	margin: 75px 0 40px;
+} 
+
+.popup .popup-cont .popup-cont-tips{
+	padding-left: 30px;
+}
+
+
+.popup .popup-bott{
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 20px;
+	color: #999;
+	background-color: #efeeee;
+}
+
+.popup .orange{
+	margin-left: 10px;
+}
+
+
+.zqzr-tr-top  span.value{
+	font-size: 14px;
+	color: #000;
+}
+
+.loan-info .left td div.hidden-p {
+	visibility: hidden;
+}
+
+.loan-info .right .account-insuff{
+	line-height: 30px;
+	padding: 20px 0;
+	color: #666;
+}
+
+.loan-info .right .invest-info{
+	line-height: 30px;
+	padding-bottom: 44px;
+	color: #666;
+}
+
+.repay-safe{
+	margin: 15px 0 20px;
+}
+
+.repay-safe-nav{
+	
+}
+
+.repay-safe-nav li{
+	float: left;
+	width: 50%;
+	font-size: 16px;
+	text-align: center;
+}
+
+.repay-safe-nav li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	color: #aeacac;
+	border-bottom: 1px solid #d2cece;
+}
+
+.repay-safe-nav li.current a,
+.repay-safe-nav li a:hover{
+	color: #f76b04;
+	border-bottom: 1px solid #fff;
+	border-top: 5px solid #f17420;
+	background-color: #fff;
+}
+
+.repay-safe-nav li a:hover{
+	color: #f76b04;
+}
+
+.repay-safe-cont{
+	padding: 25px 60px 45px;
+	background-color: #fff;
+}
+
+.repay-safe-cont .table{
+	background-color: #fff;
+}
+
+.repay-safe-cont .table tr th{
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-right: 1px solid #fff;
+	background-color: #f17420;
+	border-top:none;
+}
+
+.repay-safe-cont .table tr td{
+	padding: 10px;
+	text-align: center;
+	border-right: 1px solid #fff;
+	border-top:none;
+}
+
+.repay-safe-cont .table tr:nth-of-type(odd) {
+	background-color: #fdf2eb;
+}
+
+
+
+
+
+
+
+
+
+
